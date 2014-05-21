@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   root 'page#index'
+  get '/tag/varsity'=> 'page#varsity'
+  get '/tag/lecture'=> 'page#lecture'
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
